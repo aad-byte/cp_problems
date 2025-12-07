@@ -3,11 +3,10 @@
 #include <algorithm>
 #include <utility>
 #include<cmath>
-
 using namespace std;
-
 typedef long long ll;
 
+// USACO 2020 Open Contest, Silver, Problem 1
 bool possible(vector<pair<ll, ll>> data, ll D, ll N){
 
     ll poll = data[0].first;
